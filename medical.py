@@ -2,7 +2,7 @@ import tkinter as tk
 from PIL import Image, ImageTk
 
 class Medicine:
-    def _init_(self, name, problem, cost, quantity=0, total_cost_for_medicine=0):
+    def __init__(self, name, problem, cost, quantity=0, total_cost_for_medicine=0):
         self.name = name
         self.problem = problem
         self.cost = cost
