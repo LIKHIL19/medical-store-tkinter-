@@ -1,1 +1,1 @@
-# medical-store-tkinter-
+# Medical_Store
